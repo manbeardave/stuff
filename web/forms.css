@@ -1,0 +1,209 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image:url('ps_neutral_@2X.png'); 
+	background-repeat:repeat;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+input,
+select,
+textarea {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-shadow: none;
+	color: #2e2f33;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1;
+	padding: 13px;
+	width: 68%;
+	margin-bottom:15px;
+	font-family: "proxima-nova",sans-serif !important;
+	font-style: normal !important;
+	font-weight: 700 !important;
+}
+
+.page-title {
+background: url(http://www.vervemobile.com/wp-content/themes/centric-pro/images/Verve_Headers_Contact.jpg) no-repeat;
+background-position: 50% 0px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+height: 210px;
+margin-bottom:10px;
+}
+
+.entry-title {
+
+padding-top: 70px;
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-size: 65px;
+font-weight: 700;
+text-shadow: 3px 3px rgba( 0, 0, 0, 0.1 );
+text-align: center;
+text-transform: uppercase;
+color: #FFF;
+
+}
+
+
+form span {
+	text-align:left !important;
+	font-family: "proxima-nova",sans-serif !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+	color: #2e2f33;
+}
+
+input:focus,
+textarea:focus {
+	border: 1px solid #999;
+	outline: none;
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+::-moz-placeholder {
+	color: #2e2f33;
+	opacity: 1;
+	font-weight: 300;
+}
+
+::-webkit-input-placeholder {
+	color: #2e2f33;
+	font-weight: 300;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.button, .button_1 {
+	background-color: #2e2f33;
+	border-radius: 3px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 1;
+	padding: 16px 24px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 25%;
+}
+
+button:hover,
+.button_1:hover,
+input:hover[type="button"],
+input:hover[type="reset"],
+input:hover[type="submit"],
+.button:hover {
+	background-color: #13afdf;
+	color: #fff;
+}
+
+.left_block, .right_block {
+display:inline-block;
+width:40%;
+text-align:right;
+}
+
+.button_1 {
+text-decoration:none;
+margin-right:25px;
+}
+.form_inputs {
+text-align:center;
+margin-top: 50px;
+}
+
+.button_container {
+text-align:center;
+width:100%;
+margin-top:25px;
+}
+
+.left_confirm {
+	float:left;
+	width:22%;
+	text-align:left !important;
+        font-family: "proxima-nova",sans-serif !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        color: #2e2f33;
+	padding:20px;
+	line-height:140%;
+	
+}
+.buttons {
+margin-top:25px;
+}
+.right_pdf {
+	float:right;
+	border:1px solid #000;	
+	width:72%;
+}
+
+.bg_i {
+background-color:grey;
+padding:0;
+margin:0;
+}
